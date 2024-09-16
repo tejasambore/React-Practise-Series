@@ -4,7 +4,7 @@ import Counter from "./Example/Counter";
 
 function App() {
   return (
-    <div>
+    <>
       {/* <h1>Hello, React!</h1>
       <p>Welcome to your basic React app.</p> */}
 
@@ -13,7 +13,9 @@ function App() {
 
       {/* Example 2 :  Background Changer*/}
       <BgChanger />
-    </div>
+
+      {/* Ex 3 : Navbar (using material UI) */}
+    </>
   );
 }
 
